@@ -1,0 +1,5 @@
+[
+    "ollama/ollama",
+    "vllm-project/vllm",
+    "ainewsletter"
+]

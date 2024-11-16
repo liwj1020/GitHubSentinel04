@@ -1,0 +1,30 @@
+{
+    "github": {
+        "token": "your_github_token",
+        "subscriptions_file": "subscriptions.json",
+        "progress_frequency_days": 1,
+        "progress_execution_time": "08:00"
+    },
+    "email":  {
+        "smtp_server": "smtp.exmail.qq.com",
+        "smtp_port": 465,
+        "from": "from_email@example.com",
+        "password": "your_email_password",
+        "to": "to_email@example.com"
+    },
+    "llm": {
+        "model_type": "ollama",
+        "openai_model_name": "gpt-4o-mini",
+        "ollama_model_name": "llama3.1:8b-instruct-q4_0",
+        "ollama_api_url": "http://localhost:11434/api/chat"
+    },
+    "report_types": [
+        "github",
+        "hacker_news_hours_topic",
+        "hacker_news_daily_report",
+        "ainewsletter_daily_report"
+    ],
+    "slack": {
+        "webhook_url": "your_slack_webhook_url"
+    }
+}
